@@ -60,19 +60,21 @@ const pact = pactDelay( 10000, 100 )
 	.then(( x ) => console.log( "result: ", x ));
 	
 setTimeout(() => { pact.resolve("faster"); }, 500);
+```
 
-// output:
-//
-// progress: 0
-// progress: 100
-// progress: 200
-// progress: 300
-// progress: 400
-// result: faster
+Output:
 
+```
+progress: 0
+progress: 100
+progress: 200
+progress: 300
+progress: 400
+result: faster
+```
 
 ## See Also
-See 
+
 * @debonet/es6pledges
 * @debonet/es6tasks 
 
