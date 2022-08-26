@@ -1,6 +1,6 @@
 {
   "name": "@debonet/es6pacts",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Releasable/cancellable and Reporting Promises for Javascript ES6",
   "main": "src/es6pacts.js",
   "scripts": {
@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/debonet/es6pacts#readme",
   "dependencies": {
-    "@debonet/es6pledges": "^1.0.2",
+    "@debonet/es6pledges": "^1.0.3",
     "@debonet/es6tasks": "^1.0.10"
   },
   "devDependencies": {
