@@ -1,6 +1,6 @@
 {
   "name": "@debonet/es6pacts",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Releasable/cancellable and Reporting Promises for Javascript ES6",
   "main": "src/es6pacts.js",
   "scripts": {
